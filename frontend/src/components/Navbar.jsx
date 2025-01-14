@@ -3,8 +3,8 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div className='flex justify-between items-center bg-primary h-[112px] px-[37px]'>
-      <h1 className='font-logofont text-4xl text-white'>HobbyHive</h1>
-      <nav className='flex items-center gap-16'>
+      <h1 className='font-logofont text-4xl text-white mx-auto sm:mx-0'>HobbyHive</h1>
+      <nav className='hidden items-center gap-16 sm:flex'>
         <ul className='flex gap-12'>
             <li className='font-inter text-xl font-semibold text-white'>Home</li>
             <li className='font-inter text-xl font-semibold text-white'>Explore</li>
