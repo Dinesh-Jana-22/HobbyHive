@@ -10,7 +10,7 @@ const Navbar = () => {
             <li className='font-inter text-xl font-semibold text-white'>Explore</li>
             <li className='font-inter text-xl font-semibold text-white'>Chat</li>
         </ul>
-        <button className='bg-white rounded-full text-xl font-inter text-primary px-8 py-2 font-semibold'>Login</button>
+        <button className='bg-white rounded-full text-xl font-inter text-primary px-8 py-2 font-semibold hover:scale-105 hover:bg-gray-50 transition-all'>Login</button>
       </nav>
     </div>
   )
